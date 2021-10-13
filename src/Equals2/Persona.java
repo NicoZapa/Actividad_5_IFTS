@@ -20,7 +20,7 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    protected void mismaPersona(Persona persona){
+    void mismaPersona(Persona persona){
         if(this.equals(persona)){
             System.out.println("COINCIDENCIA DNI Y SEXO\nSon la misma persona");
         }else{
